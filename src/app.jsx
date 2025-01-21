@@ -18,7 +18,8 @@ function App() {
         <div className="background-image"></div>
         <div className="content">
          <div className="landing_content">
-         <h1>Welcome To Paradise Nursery</h1>
+         <img className='logo' src="https://cdn.pixabay.com/photo/2020/08/05/13/12/eco-5465432_1280.png" />
+         <h1>Paradise Nursery</h1>
           <div className="divider"></div>
           <p>Where Green Meets Serenity</p>
           <button className="get-started-button" onClick={handleGetStartedClick}>
